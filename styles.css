@@ -1,0 +1,130 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #111;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* CONTAINER */
+.container {
+    width: min(90%, 1200px);
+    margin: auto;
+}
+
+/* NAVIGATION */
+.nav {
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
+.logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+nav a {
+    margin-left: 2rem;
+    font-weight: 500;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background: url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-content {
+    text-align: center;
+    background: rgba(255,255,255,0.75);
+    padding: 2rem;
+}
+.hero h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    margin-bottom: 0.5rem;
+    letter-spacing: 3px;
+}
+.hero p {
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+.btn {
+    background: #111;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 4rem 0;
+    text-align: center;
+}
+.section h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    margin-bottom: 1.5rem;
+}
+
+/* GRIDS */
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+/* CARDS */
+.card {
+    background: #f8f8f8;
+    padding: 1rem;
+}
+.card h3 {
+    margin-top: 0.75rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* IMAGES (PLACEHOLDER BACKGROUNDS) */
+.coll1 {background: url('https://via.placeholder.com/300') center/cover no-repeat;}
+.coll2 {background: url('https://via.placeholder.com/301') center/cover no-repeat;}
+.coll3 {background: url('https://via.placeholder.com/302') center/cover no-repeat;}
+.best1 {background: url('https://via.placeholder.com/303') center/cover no-repeat; height: 200px;}
+.best2 {background: url('https://via.placeholder.com/304') center/cover no-repeat; height: 200px;}
+.best3 {background: url('https://via.placeholder.com/305') center/cover no-repeat; height: 200px;}
+
+/* NEWSLETTER */
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.newsletter input {
+    padding: 0.75rem;
+    width: 60%;
+    border: 1px solid #aaa;
+}
+.newsletter button {
+    background: #111;
+    color: #fff;
+    padding: 0.75rem 1.25rem;
+    border: none;
+}
+
+/* FOOTER */
+footer {
+    padding: 1rem;
+    background: #111;
+    color: #fff;
+    font-size: 14px;
+}
